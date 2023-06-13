@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./images/LOGO.png" width="70" height="20" alt="Logo">
+                <nav class="menu" aria-label="main-navigation">
+                    <ul>
+                        <li>
+                            <a class="is-active" href="#main">Hola</a>
+                        </li>
+                        <li>
+                            <a href="#project">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Hablemos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button">Curriculum</button>
+                <!-- <button class="button is-secondary">Curriculum</button> -->
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <section class="hero" id="main">
+            <div class="hero-image">
+                <!-- <img src="./images/juame.png" width="338" height="330" alt="Juame"> -->
+                <img src="./images/juame.png" alt="Juame">
+            </div>
+            <div class="hero-description">
+                <h1>
+                    <span>¡Hola a todos!</span>
+                    <span>Soy Jaume</span>
+                </h1>
+                <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+                <div class="social">
+                    <a class="button-icon" href="tel:99823748"><img src="./images/icon-phone.svg" alt="Phone"></a>
+                    <a class="button-icon"><img src="./images/icon-important_mail.svg" alt="Phone"></a>
+                    <a class="button-icon"><img src="./images/icon-instagram.svg" alt="instagram"></a>
+                    <a class="button-icon"><img src="./images/icon-twitter.svg" alt="twitter"></a>
+                </div>
+                <a href="https://google.com" class="button">Descargar Curriculum</a>
+            </div>
+        </section>
+
+        <div class="project" id="project">
+            <div class="project-image">
+                <img src="./images/img1.png" alt="ordenador">
+            </div>
+            <div class="project-description">
+                <a class="title" href="http://leonidasesteban.com" target="_blank">LEONIDAS ESTEBAN</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+                tus habilidades como desarrollador Front-End.</p>
+                <a href="#" target="_blank" class="button is-secondary">ver Código</a>
+                <a href="#" target="_blank" class="button">ver proyecto</a>
+            </div>
+        </div>
+        <div class="project" id="project">
+            <div class="project-image">
+                <img src="./images/📱 iPad.png" alt="ipad">
+            </div>
+            <div class="project-description">
+                <a class="title" href="http://leonidasesteban.com" target="_blank">LEONIDAS ESTEBAN</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+                tus habilidades como desarrollador Front-End.</p>
+                <a href="#" target="_blank" class="button is-secondary">ver Código</a>
+                <a href="#" target="_blank" class="button">ver proyecto</a>
+            </div>
+        </div>
+        <div class="project" id="project">
+            <div class="project-image">
+                <img src="./images/📱 Iphone X.png" alt="phone">
+            </div>
+            <div class="project-description">
+                <a class="title" href="http://leonidasesteban.com" target="_blank">LEONIDAS ESTEBAN</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+                tus habilidades como desarrollador Front-End.</p>
+                <a href="#" target="_blank" class="button is-secondary">ver Código</a>
+                <a href="#" target="_blank" class="button">ver proyecto</a>
+            </div>
+        </div>
+
+        <form action="" method="POST" class="form">
+            <div class="form-content">  
+                <h2 class="title">Hablemos</h2>
+                <p>Si está interesado en trabajar conmigo en su próximo proyecto,
+                no dude en ponerse en contacto conmigo.</p>
+                 <label for="form-name">
+                    Nombre Completo
+                    <input required name="name" id="form-name" type="text" placeholder="juan">
+                </label>
+                 <label for="form-name">
+                    Correo electrónico
+                    <input required name="email" id="form-name" type="email" placeholder="juan@email.com">
+                 </label>
+                 <label for="">
+                    Mensaje
+                    <textarea required name="message" id="form-nam" cols="30" rows="10"></textarea>
+                </label>
+                 <button class="button" type="submit">Enviar Mensaje</button>
+            </div>
+        </form>
+        <footer class="footer" id="contact">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./images/LOGO.png" width="70" height="20" alt="Logo">
+                </div>
+                <div class="social">
+                    <a class="button-icon" href="tel:99823748"><img src="./images/icon-phone.svg" alt="Phone"></a>
+                    <a class="button-icon"><img src="./images/icon-important_mail.svg" alt="Phone"></a>
+                    <a class="button-icon"><img src="./images/icon-instagram.svg" alt="instagram"></a>
+                    <a class="button-icon"><img src="./images/icon-twitter.svg" alt="twitter"></a>
+                </div>
+                <div class="footer-coyright">
+                    <p>Hecho con 🤍 por Jaume. </p>
+                    <p> Copyright 2021 - Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
